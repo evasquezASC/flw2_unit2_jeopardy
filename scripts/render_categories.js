@@ -35,7 +35,7 @@ let categories = [
 function renderCategories() {
   for (let i = 0; i < categories.length; i++) {
 //    <div class='category'><div class='category-cell'>CATEGORY</div></div>
-    let my_div_string = "<div class='category'>" + "<div class='category-cell'>" + categories[i] + "</div>""</div>";
+    let my_div_string = "<div class='category'>" + "<div class='category-cell'>" + categories[i] + "</div>" + "</div>";
     $("#category").append(my_div_string.toUpperCase());
   }
 }
